@@ -1,9 +1,8 @@
 .box {
-  width: var(--cell-size);
-  height: var(--cell-size);
   background: #ffffff;
   border: 1px solid #d0d7e2;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .selected {
