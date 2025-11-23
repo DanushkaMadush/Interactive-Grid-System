@@ -37,8 +37,8 @@ export default function Grid() {
   return (
     <div>
       <div className={styles.grid}
-        style={{
-          width: `${gridCellSize * 20}px` }}>
+         style={{ '--cell-size': `${gridCellSize}px` }}
+         >
         {items.map(item => (
           <GridItem
             key={item.id}

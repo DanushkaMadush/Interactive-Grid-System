@@ -1,9 +1,11 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(20, 1fr);
+  grid-template-columns: repeat(20, var(--cell-size));
   gap: 8px;
   background: #f5f7fa;
   padding: 8px;
-  position: relative;
   border: 1px solid #e0e6ef;
+
+  /* REQUIRED for absolute-positioned selected items */
+  position: relative; 
 }
