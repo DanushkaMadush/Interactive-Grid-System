@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 8px;
+  background: #f5f7fa;
+  padding: 8px;
+  position: relative;
+  border: 1px solid #e0e6ef;
+}
